@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+     font-family: 'Poppins', sans-serif;
+     scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+      font-weight: 500;
+}
+ :root{
+    --maincolor : #e52f37;
+}
+
+.navmenu{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: fixed;
+     z-index: 2;
+     margin: 0;
+     left: 0;
+     top: 0;
+     width: 100%;
+     padding: 0 50px;
+     padding:10px;
+ }
+
+.navbar{
+     width: 100%;
+     background:white;
+}
+ 
+.menubar li{
+     line-height: 60px;
+     text-align: center;
+     padding: 10px;
+     display: inline-block;
+}
+.menubar li a{
+     text-decoration: none;
+     color: white;
+     position: relative;
+}
+
+   .scroll{
+         background: white;
+         color: black;
+         box-shadow: 2px 3px 10px grey;
+         transition: all 0.5s;
+   }
+/* the top navbar and menubar seciton css 
+ends herer---------------------- */
+header{
+     height: 100vh;
+     background: blueviolet;
+     background-image: url(../images/header-bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-color: rgba(0,0,0,0.5);
+     background-blend-mode: overlay;
+     background-attachment: fixed;
+}
+
+.heading{
+     display: flex;
+     align-items: center;
+     height: 100%;
+}
+
+.header-text{
+   width: 60%;
+    margin: 0 auto;
+    text-align: center;
+   color: white;
+}
+.header-text h1{
+    font-size: 4rem;
+}
+.header-text p{
+    font-size: x-large;
+    padding-top: 20px;
+}
+.form_{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.form input[type=text]
+{
+    width: 50%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 10px;
+}
+.form input[type=submit]
+{
+    width: 20%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+    background: var(--maincolor);
+}
+/* }
+<!-- The header section ends here--
+------------------------------- --> */
+.topimg{
+       padding-top: 60px;
+}
+.img-group{
+     display: flex;
+     margin: 0 auto;
+      width: 70%;
+     align-items: center;
+     justify-content: space-between;
+}
+.img-group img{
+ width: 150px;       
+ margin: 20px;
+ cursor: pointer;
+ opacity: 0.6;
+}
+.img-group img:hover{
+      opacity: 1;
+      transition: 0.5s;
+}
+.img-group p{
+      font-size: x-large;
+      padding: 20px;
+}
+#imgbox2 img{
+      width: 80px;
+}
+ 
+/* THE IMG GROUP SECTION ENDS HEREE------------------
+--------------------------------------------------- */
+.service{
+      background: #f1faff;
+      margin-top: 50px;
+}
+.service-box{
+      width: 85%;
+     margin: 0 auto;
+     padding: 25px;
+}
+.servicetext *{
+      text-align: center;
+      color: black;
+      padding-top: 20px;
+}
+.servicetext h2{
+      font-size: 50px;
+}
+/* //The three section css starts herere----- */
+
+.service-wrapper{
+       display: flex;
+      width: 100%;
+      justify-content: space-around;
+     margin-top: 30px;
+      }
+.wrapper-box{
+       text-align: center !important;
+      margin: 10px;
+      padding: 20px;
+ }
+.wrapper-box .icon{
+      width: 90px;
+      padding:20px;
+      text-align: center;
+      color: white;
+       border-radius: 12px;
+      font-size: xx-large;
+      margin: 0 auto;
+}
+.wrapper-box h3{
+      padding-top: 24px;
+      font-size: xx-large;
+}
+.wrapper-box p{
+     padding-top: 20px;
+     font-size: 20px;
+     line-height: 30px;
+}
+.blue{
+      background: #1e90ff;
+}
+.red{
+      background: red;;
+}
+.green{
+      background: rgb(37, 224, 37);
+}
+
+
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.buisness-box{
+      background: #fff;
+      margin-top: 100px;
+}
+.buisness-wrapper{
+       width: 96%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+}
+.bimg{
+      margin: 10px;
+       flex: 2;
+  }
+.bimg img{
+   box-shadow: 0px 0px 30px lightgrey;  
+   width: 100%;
+ }
+.btext{
+      margin: 10px;
+       flex: 2;
+      padding: 10px;
+ }
+.btext h2{
+      font-size: 30px;
+}
+.btext p{
+      padding-top: 20px;
+}
+.btext #check{
+      list-style: none;
+      padding-top: 30px;
+}
+#check i{
+      color: red;
+      padding-right: 14px;
+}
+#check li{
+      line-height: 40px;
+}
+.btext button{
+      background: var(--maincolor);
+      width: 200px;
+      height: 55px;
+      color: white;
+     margin-top: 30px;
+    border:none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.buisness-box2{
+      margin-top: 100px;
+      background: #f1faff;
+}
+.buisness-wrapper2{
+      width: 96%;
+     margin: 0 auto;
+     display: flex;
+      padding: 20px;
+}
+.bimg{
+     margin: 10px;
+      flex: 2;
+ }
+.bimg img{
+  box-shadow: 0px 0px 30px lightgrey;  
+  width: 100%;
+}
+.btext{
+     margin: 10px;
+      flex: 2;
+     padding: 10px;
+}
+.btext h2{
+     font-size: 30px;
+}
+.btext p{
+     padding-top: 20px;
+}
+.tab1{
+       cursor: pointer;
+      padding: 10px;
+      margin-top: 20px;
+      width: 80%;
+}
+#tab11{
+      background: white;
+}
+.tab2img,.tab3img{
+      display: none;
+}
+.active{
+      background: white;
+      display: block;
+      transition: all 0.5s ease;
+}
+
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.fact{
+      background: var(--maincolor);
+       margin-top: 100px;
+       padding: 20px;
+ }
+.fact h2{ 
+     text-align:center;
+     color: white;
+}
+.fact-wrapper{
+       width: 90%;
+       margin: 50px auto;
+      display: flex;
+       
+}
+.factbox{
+       text-align-last: center;
+      padding: 10px;
+      color: white;
+     width: 40%;
+      
+}
+.factbox i{
+      font-size: 45px;
+      padding: 20px;
+}
+.count{
+      position: relative;
+      font-weight: bold;
+      font-size: x-large;
+}
+.count::after{
+      content: "+";
+      position: absolute;
+
+}
+
+
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.client{
+     background: #f1faff;
+     padding-top: 100px;
+}
+.client-wrapper{
+       width: 90%;
+      padding: 20px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center; 
+}
+.clienttext{
+      flex: 2;
+      margin: 20px;
+ }
+.clienttext h2{
+      font-size: 40px;
+}
+.clienttext p{
+     padding-right:10px;
+     padding-top: 20px;
+     font-size: x-large;
+}
+.clientimg{
+      flex: 2;
+ }
+.clientreview,.clientreview2,.clientreview3{
+      background: white;
+       border-left: 8px solid lightseagreen;
+      cursor: pointer;
+      margin-top: 20px;
+     }
+.text{ 
+     display: flex;
+     align-items: center;
+}
+.cimg{
+     width: 100px;
+     height: 100px;
+     border-radius: 100px;
+     object-fit: cover;
+}
+.text p{
+      padding-left: 30px;
+}
+.text span{
+      font-weight: bold;
+      color: green;
+}
+.clientcomment,.clientcomment2,.clientcomment3{
+      margin-top: 20px;
+      padding: 20px;
+      display: none;
+}
+
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.portfolio{
+      margin-top: 100px;
+      padding: 20px;
+     
+ }
+.portfoliobox{
+      width: 90%;
+      margin: 0 auto;
+       padding: 10px;
+}
+.port-text{
+     text-align: center;
+}
+.port-text h2{
+      font-size: 40px;
+}
+
+.port-text p{
+      font-size: x-large;
+}
+#portwrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+ }
+#portbox{
+       width: 380px;
+       position: relative;
+ }
+#portbox img{
+       width: 100%;
+}
+#portbox img:hover{
+      opacity: 0.8;
+}
+
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.award{
+      width: 100%;
+      background:var(--maincolor);
+      padding: 50px;
+      margin-top: 200px;
+      background-image: url(../images/award.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: rgba(0,0,0,0.5);
+      background-blend-mode: overlay;
+      background-attachment: fixed;
+     
+}
+.awardtext{
+      width: 60%;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      margin: 0 auto;
+}
+.awardtext h2{
+      font-size: 40px;
+      padding-top: 10px;
+}
+.awardtext p{
+      font-size: 18px;
+      padding-top: 10px;
+}
+.awardtext button{
+      width: 200px;
+      height: 60px;
+      border: 1px solid white;
+      padding: 10px;
+      border-radius: 100px;
+      margin-top: 50px;
+      background: none;
+      cursor: pointer;
+      box-shadow: 0px 0px 30px 0px black;
+      margin-left: 10px;
+      color: white;
+      opacity: 0.7;
+
+}
+.awardtext button:hover{
+   background: white;
+   color: black;
+   transition: 0.5s;
+}
+.awardtext .btn2{
+     width: 200px;
+     height: 60px;
+      padding: 10px;
+     border-radius: 100px;
+     margin-top: 50px;
+     background: white;
+     cursor: pointer;
+     box-shadow: 0px 0px 60px 0px black;
+     opacity: 0.7;
+     margin-left: 10px;
+     color: black;
+}
+ 
+/* // THE WRAPPER BOX AND SERVICES SECTION ENDS HERE--------
+----------------------------------------------------------- */
+.feature{
+      width: 90%;
+      padding: 20px;
+      margin: 100px auto;
+      text-align: center;
+  }
+ 
+.featuretext h2{
+      font-size: 40px;
+      padding: 10px;
+}
+.featuretext p{
+      font-size: 18px;
+      text-align: center;
+      padding: 10px;
+}
+.feabox{
+      padding: 10px;
+      width: 340px;
+      margin: 10px;
+      text-align: center;
+}
+.feabox:hover{
+      box-shadow: 2px 3px 10px lightgrey;
+   border-radius: 10px;
+     }
+.feabox h2,p{
+      padding-top: 20px;
+      text-align: left }
+.featurewrapper{
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+}
+.feaicon{
+      width: 70px;
+       text-align: center;
+      border-radius: 14px;
+      color: white;
+      background: tomato;
+       padding: 20px;
+      font-size: xx-large;
+}
+ 
+.feabox:hover .feaicon i{
+      transform: rotate(360deg);
+      transition: 0.5s;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+.price-container{
+   padding: 20px;
+   background: #f1faff;
+ }
+ .price-wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+.pricebox{
+   padding: 30px;
+   border: 1px solid black;
+   width: 30%;
+   margin: 15px;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.pricebox:last-child{
+   background: tomato;
+   color: white;
+   border: none;
+}
+.pricebox:hover{
+   transform: scale(1.1,1.1);
+   transition: 0.5s ease;
+}
+.pricetext{
+  width: 70%;
+ }
+.pricetext h2,p{
+ }
+.pricetext h2{
+   font-weight: bold;
+}
+.pricetext *{
+   padding-top: 20px;
+}
+.pricebox h2{
+   font-weight: bolder;
+   font-size: 50px;
+}
+.pricebox p{
+   font-weight: 300;
+   text-align: center;
+}
+.pricebox h4{
+   margin-top : 30px;
+   color: red;
+   text-decoration: none;
+   cursor: pointer;
+   font-weight: bolder;
+}
+.pricebox:last-child h4{
+   background: white;
+   color: red;
+   border-radius: 50px;
+   width: 50%;
+   padding-bottom: 20px;
+   text-align: center;
+   padding: 10px auto;
+   margin: 0 auto;
+   cursor: pointer;
+}
+.pricebox:last-child h4:hover{
+   color: black;
+   transition: 0.5s;
+}
+.pricebox *{
+   padding-top: 20px;
+}
+
+
+
+
+.contact-container{
+   margin-top: 100px;
+   padding: 20px;
+ background-image: url(../images/buisness-img.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: rgba(0,0,0,0.6);
+ background-blend-mode: overlay;
+}
+.contact-text{
+   text-align: center;
+   padding: 30px;
+   color: white;
+}
+.form-wrapper{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+ .formbox{
+   width: 40%;
+   }
+  .formbox iframe{
+     width: 100%;
+  }
+.input{
+  width: 100%;
+   margin-top:  10px;
+   padding:15px;
+   background: none;
+    color:white;
+   border: none;
+   border-bottom:  1px solid white;
+  }
+textarea{
+    width: 100%;
+  resize: none;
+    border: none;
+    padding:15px;
+   border-radius: 10px;
+     background: none;
+    color:white;
+   border: none;
+   border:  1px solid white;
+
+   margin-left: 10px;
+
+ }
+.input,textarea:focus{
+ outline: none;
+}
+#opt{
+    width: 100%;
+  margin-top: 10px;
+   padding:15px;
+    background: none;
+    border: none;
+ color: white;   border-bottom:  1px solid white;
+
+}
+#opt:focus{
+  border: none;
+  outline: none;
+}
+#submitbtn{
+   border: 1px solid white;
+   background:  none;
+   cursor: pointer;
+   padding: 20px;
+   margin-top: 30px;
+   color: white;
+   width: 50%;
+
+}
+#submitbtn:hover{
+   background: tomato;
+   transition: 0.5s ease;
+   border: none;
+}
+
+.input::placeholder{
+   color: white;
+   opacity: 0.6;
+}
+.formbox textarea::placeholder{
+    color: white;
+   opacity: 0.6;
+}
+
+
+
+.white{
+   background: white;
+}
+
+.mobmenu{
+  background: white;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  }
+.mobmenu a{
+   text-decoration: none;
+   color: black;
+      text-align: center;
+
+}
+.mobmenu li{
+   line-height: 40px;
+   list-style:none;
+   padding: 10px;
+   border-bottom: 1px solid lightgrey;
+}
+.mobmenu li:hover{
+   border-left: 6px solid tomato;
+    background: #f1faff;
+   transition: 0.5s ease;
+ }
+.smtoggle{
+   color: white;
+   cursor: pointer;
+   display: none !important;
+}
+
+ 

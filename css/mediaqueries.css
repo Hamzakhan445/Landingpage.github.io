@@ -1,0 +1,252 @@
+
+@media only screen and (max-width:992px)
+{
+    .menubar{
+         display: none;
+     }
+     .smtoggle{
+      display: block !important;
+     }
+    #portbox{
+        margin: 5px;
+    }
+  
+    .header-text{
+        width: 80%;
+  }
+   .header-text h1{    
+        font-size: 4rem;
+   }
+   .header-text p{
+     font-size: 20px;    
+   }
+   .form input[type=text]
+   {
+       width: 100%;
+   }
+   .form input[type=submit]
+   {
+       width: 40%;
+       margin-top: 30px;
+   }
+   /* Top header and navbar media queries ends here---------
+   ----------------------------------------------------------------- */
+   .img-group{
+     width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+}
+/* THE IMG GROUP SECTION ENDS HEREE------------------
+--------------------------------------------------- */
+.service-box{
+    width: 100%;
+}
+.tab1{
+         margin:  15px auto;
+ }
+.imagesbox{
+      width: 80%;
+     margin: 10px auto;
+}
+.buisness-wrapper{
+     flex-direction: column;
+ }
+ .buisness-wrapper2{
+    flex-direction: column;
+ }
+ 
+/* THE IMG GROUP SECTION ENDS HEREE------------------
+--------------------------------------------------- */
+.fact-wrapper{
+     flex-wrap: wrap;
+     text-align: center;
+
+}
+.factbox{
+ margin-top: 20px;
+ text-align:center;
+ margin-left: 20px;
+ }
+
+
+}
+
+
+
+@media only screen and (max-width:768px)
+{
+  .bimg{
+      text-align: center;
+  }
+  .tab1{
+     width: 100%;
+     box-shadow: 3px 3px 10px lightgrey;
+  }
+  .tab1 h2{
+     font-size: 20px;
+  }
+  .tab1 p{
+     font-size: 16px;
+  }
+  .tab1 p{
+     font-size: 16px;
+  }
+    .awardtext{
+         width: 100%;
+    }
+   
+    .featurewrapper{
+         flex-wrap: wrap;
+        }
+        .feabox{
+            box-shadow: 2px 3px 10px lightgrey;
+         width: 400px;
+        }
+
+
+    #portwrapper{
+           flex-wrap: wrap;
+           justify-content: center;
+    }
+    #portbox{
+          margin-top: 10px;
+    }
+
+    
+ .client-wrapper{
+    flex-direction: column;
+}
+    .wrapper{
+        flex-direction: column;
+     }
+     .buisness-wrapper2{
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+     .navmenu{
+         padding: 30px;
+     }
+   
+     .landing-page {display: block;}
+
+    .header-text{
+        width: 90%;
+   }
+   .header-text h1{    
+        font-size: 3rem;
+   }
+   .header-text p{
+     font-size: 18px;    
+   }
+   .form input[type=text]
+   {
+       width: 100%;
+   }
+   .form input[type=submit]
+   {
+       width: 50%;
+       margin-top: 30px;
+   }
+   .service-wrapper{
+         width: 100%;
+        flex-wrap: wrap;
+   }
+ 
+   .form-wrapper{
+     flex-direction: column;
+     flex-wrap: wrap;
+   }
+   .formbox{
+     width: 100%;
+     margin-top: 20px;
+   }
+   .price-wrapper{
+    flex-direction: column;
+    }
+   .pricebox{
+     width: 70%;
+   }
+   /* Top header and navbar media queries ends here---------
+   ----------------------------------------------------------------- */
+}
+
+
+
+@media only screen and (max-width:576px)
+{   
+    .tabsbox{
+          width: 100% !important;
+    }
+    .tab1{
+          width: 100%;
+    }
+   .factbox{
+     text-align: center;
+
+   }
+    .pricetext{
+     width: 100%;
+
+    }
+    .feature{
+         width: 95%;
+        margin: 0 auto;
+    }
+    .featurewrapper{
+          width: 100%;
+    }
+    .feabox{
+         width: 98%;
+         margin:  15px auto;         
+      }
+      .feabox h2,p{
+         text-align: center;
+      }
+     .feaicon{
+        margin: 0 auto;
+     }
+    .awardtext p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .awardtext btn2{
+         margin-top: 10px;
+    }
+    .bimg{
+       flex: 1;
+      text-align:left;
+    }
+    .btext{
+         flex: 1;
+    }
+    .header-text{
+          width: 90%;
+     }
+     .header-text h1{    
+          font-size: 3rem;
+     }
+     .header-text p{
+       font-size: 18px;    
+     }
+     .form input[type=text]
+     {
+         width: 100%;
+     }
+     .form input[type=submit]
+     {
+         width: 50%;
+         margin-top: 30px;
+     }
+     /* Top header and navbar media queries ends here---------
+     ----------------------------------------------------------------- */
+ 
+
+}
+ /* 576 px Media queries Work ---------
+ --------------------------------
+ --------------------------------------------- */
+ 
+
+
+
